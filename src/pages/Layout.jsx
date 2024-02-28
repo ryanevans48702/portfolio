@@ -9,8 +9,8 @@ const Layout = () => {
   return (
     <>
       <nav className="navbar unselect">
-        <section className="name clickable">
-            Ryan Evans
+        <section className="name clickable" onClick={(e) => changePage('/')}>
+        <span className="name">{"<Ryan Evans/>"}</span>
         </section>
         <section>
             <nav>

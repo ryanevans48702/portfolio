@@ -46,16 +46,16 @@ html{
 
 .name{
   font-size: 2rem;
-}
+  font-family: 'Shadows Into Light', cursive;
 
-.home{
-  margin-top: 110px;
 }
 
 .home-first{
+  padding: 40px 0px 40px 0px;
+  height: calc(100vh - 160px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
 
@@ -64,7 +64,6 @@ html{
 
 .home-name{
   font-size: 13rem;
-  margin-bottom: 15px;
 }
 
 .socials-div{
@@ -101,21 +100,36 @@ html{
 }
 
 .about-div{
+  height: calc(100vh - 160px);
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
 }
 
+
+.about-top{
+  display: flex;
+  margin: 0px 5% 0px 5%;
+}
+
+.about-image{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
 .about{
-  margin: 0px 10% 0px 10%;
-  font-size: 1.8rem;
-  margin-top: 100px;
+  width: 50%;
+  font-size: 3vh;
   display: flex;
   text-align: center;
+  align-items: center;
+
 }
 
 .skills-div{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   background-color: rgba(0, 0, 0, 0.09);
   display: flex;
   justify-content: center;
@@ -125,16 +139,15 @@ html{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .skills{
-  width: 230px;
-  height: 230px;
+  width: 180px;
+  height: 180px;
 }
 
 .skills-title{
-  font-size: 3rem;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  margin-top: 100px;
 }
 
 .socials-image{
@@ -143,7 +156,6 @@ html{
 }
 
 .contact{
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,14 +209,6 @@ form textarea{
 
 
 }
-
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .contact-button:hover{
   background-color: #00d2ff;
 }
@@ -213,11 +217,20 @@ form textarea{
   position: absolute;
 }
 
+
+.contact-flex{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh
+}
+
 .contact-div{
-  background-color: rgba(0, 0, 0, 0.09); 
+  background-color: rgba(0, 0, 0, 0.09);
   padding: 20px;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
   
 }
 
@@ -292,6 +305,10 @@ form textarea{
   
 }
 
+.links span:hover{
+  color: rgb(163, 163, 163);
+}
+
 .unselect{
   user-select: none;
   
@@ -302,12 +319,14 @@ form textarea{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 230px;
+  width: 160px;
   border-radius: 2rem;
-  height: 50px;
+  height: 45px;
   font-size: 2rem;
   border: 5px solid white;
   transition: all 0.3s;
+  font-family: 'Shadows Into Light', cursive;
+
 }
 
 .resume:hover{
@@ -327,5 +346,6 @@ form textarea{
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 3.5vh;
+  margin-bottom: 5px;
 }
