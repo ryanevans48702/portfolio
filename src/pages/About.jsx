@@ -22,7 +22,7 @@ function About() {
       </div>
       <div className='about-top'>
       <section className='about'>
-        Hi I'm Ryan, I'm a passionate web developer currently studying Computer Science(Cyber Security) at Plymouth University. I've had a passion for programming for five years, beginning with developing games on unity with C# which developed into developing websites using HTML into using the React JS typescript for the past year. I have spent time working on personal projects that can be seen in on this website as well as links to the GitHub page. I have also completed the Odin Project as well as understaken online courses and use leetcode to develop my skill further as a programmer. When I'm not programming I can be found playing competitive games such as League Of Legends. 
+      Hi I'm Ryan, I'm a Computer Science(Cybersecurity) undergraduate with an interest in software, website, and full-stack development. I have 3 years of practice utilising JavaScript frameworks implementing security by design principles. My programming began with developing games using Unity and C#, which soon developed into website development using ReactJS with various other frameworks and tools. I have spent time developing multiple projects which vary from team projects with team members to personal projects which are available to demo and review the GitHub pages.
       </section>
         <section className='about-image'>
           <img src={Programmer} alt="" />

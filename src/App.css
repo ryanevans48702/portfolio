@@ -17,6 +17,11 @@ html{
   display: flex;
   justify-content: space-between;
   margin: 10px 2% 10px 2%;
+  
+}
+
+nav div{
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .navbar nav{
