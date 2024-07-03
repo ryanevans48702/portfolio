@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d43d5f5.css",
+    "main.js": "/static/js/main.ff7f57ed.js",
+    "static/media/portfolioImage.png": "/static/media/portfolioImage.724515ca952f45ada6ab.png",
+    "static/media/python.png": "/static/media/python.72b437bd791a379d836e.png",
+    "static/media/cs.png": "/static/media/cs.dcfd7cba519fc03651fb.png",
+    "static/media/biometric.png": "/static/media/biometric.13950af912e0c7de1696.png",
+    "static/media/css.png": "/static/media/css.015d4e7819fe71e19c25.png",
+    "static/media/typinggame.png": "/static/media/typinggame.fdcfff7fed7326dca48a.png",
+    "static/media/programmer.png": "/static/media/programmer.56535ae374ae7ed7194e.png",
+    "static/media/aws.png": "/static/media/aws.a95eb3ec9cc20f4622d8.png",
+    "static/media/ts.png": "/static/media/ts.cf0efaf73c3cc9d45263.png",
+    "static/media/js.png": "/static/media/js.e5ffa62da2b5d4fd8c17.png",
+    "static/media/docker.png": "/static/media/docker.42756565e36f19f8d6b9.png",
+    "static/media/node-js.svg": "/static/media/node-js.4d8b9a0c5a604b6b68d3750273f913d6.svg",
+    "static/media/mysql.svg": "/static/media/mysql.5dbd7ffb56a921cecde426cca82f0df4.svg",
+    "index.html": "/index.html",
+    "main.4d43d5f5.css.map": "/static/css/main.4d43d5f5.css.map",
+    "main.ff7f57ed.js.map": "/static/js/main.ff7f57ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d43d5f5.css",
+    "static/js/main.ff7f57ed.js"
+  ]
+}
